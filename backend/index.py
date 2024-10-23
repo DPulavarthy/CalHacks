@@ -1,7 +1,7 @@
 import json
 import singlestoredb as s2
-conn = s2.connect(host='svc-3482219c-a389-4079-b18b-d50662524e8a-shared-dml.aws-virginia-6.svc.singlestore.com', port='3333', user='rishi-21',
-                  password='c341LeVH7iXgZ4Kw16L2d2rMjYK0se6c', database='db_rishikeshan_3eeba')
+conn = s2.connect(host='', port='', user='',
+                  password='', database='')
 
 def read_skills_from_file():
     try:
